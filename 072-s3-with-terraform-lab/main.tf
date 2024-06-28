@@ -1,4 +1,3 @@
-
 # create finance-bucket resource
 resource "aws_s3_bucket" "finance-bucket" {
   bucket        = "finance-2024"
