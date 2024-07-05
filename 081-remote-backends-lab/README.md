@@ -25,7 +25,8 @@ $ terraform apply
 ## Clean Up!
 
 ```bash
-$ aws s3api delete-bucket --bucket gvv-tfstate
-$ aws dynamodb delete-table --table-name gvv-tfstate-lock
 $ terraform destroy
+$ aws s3 rm s3://gvv-tfstate --recursive
+$ aws s3api delete-bucket --bucket gvv-tfstate
+$ aws dynamodb delete-table --table-name gvv-tfstate-locks
 ```
