@@ -22,6 +22,13 @@ $ terraform plan
 $ terraform apply
 ```
 
+## Playing with terraform state
+
+```bash
+# list al resources
+$ terraform state list
+```
+
 ## Clean Up!
 
 ```bash
