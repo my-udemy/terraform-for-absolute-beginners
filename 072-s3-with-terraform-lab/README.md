@@ -18,5 +18,5 @@ $ terraform apply
 
 ```bash
 $ terraform destroy
-$ aws iam create-group --group-name finance-analysts
+$ aws iam delete-group --group-name finance-analysts
 ```
