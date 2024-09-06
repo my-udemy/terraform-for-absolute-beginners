@@ -5,7 +5,7 @@
 - Install Terraform
 - Install AWS CLI
 
-## Confogure AWS Credentials
+## Configure AWS Credentials
 
 From the user root folder:
 
@@ -32,4 +32,11 @@ region = us-east-2
 [mcwiise.cap@gmail.com]
 aws_access_key_id = YOUR_AWS_ACCESS_KEY_FROM_CONSOLE
 aws_secret_access_key = YOUR_AWS_SECRET_KEY_FROM_CONSOLE
+```
+
+### Set Up Default Profiles
+
+```
+$ aws configure list-profiles
+$ export AWS_DEFAULT_PROFILE=mcwiise.cap@gmail.com
 ```

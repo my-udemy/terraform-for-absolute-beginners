@@ -5,6 +5,7 @@
 ```bash
 # create terraform state bucket
 $ aws s3api create-bucket --bucket gvv-tfstate --region us-east-1
+
 # create terraform lock table
 $ aws dynamodb create-table \
     --table-name gvv-tfstate-locks \
