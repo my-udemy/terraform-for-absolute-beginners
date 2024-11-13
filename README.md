@@ -16,7 +16,7 @@ $ touch config
 $ touch credentials
 ```
 
-### The `config` file
+### The `config` files
 
 ```
 [profile [mcwiise.cap@gmail.com](mailto:mcwiise.cap@gmail.com)]
